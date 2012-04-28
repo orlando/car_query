@@ -5,7 +5,6 @@ require 'rspec'
 require 'webmock/rspec'
 require 'vcr'
 require 'car_query'
-require 'pry'
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
