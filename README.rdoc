@@ -1,8 +1,8 @@
-= car_query
+= CarQuery
 
-Description goes here.
+A Ruby wrapper for the www.carqueryapi.com's JSON API
 
-== Contributing to car_query
+== Contributing to CarQuery
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.
