@@ -2,7 +2,7 @@
 
 A Ruby wrapper for the www.carqueryapi.com's JSON API
 
-[![Build Status](https://secure.travis-ci.org/orlandodelaguila/car_query.png)](http://travis-ci.org/orlandodelaguila/car\_query])
+[![Build Status](https://secure.travis-ci.org/technicalpickles/jeweler.png)](http://travis-ci.org/orlandodelaguila/car\_query)
 
 Use RubyGems to install the gem:
     gem install car_query
