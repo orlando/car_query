@@ -1,0 +1,64 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.carqueryapi.com/api/0.3/?cmd=getModel
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 28 Apr 2012 06:54:38 GMT
+      Server:
+      - Apache/2.2.22 (EL)
+      X-Powered-By:
+      - PHP/5.2.17
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "\r\n{ \"error\":\"missing required parameter to GetModel.\"}"
+    http_version: 
+  recorded_at: Sat, 28 Apr 2012 05:50:20 GMT
+- request:
+    method: get
+    uri: http://www.carqueryapi.com/api/0.3/?cmd=getModel&model=48922
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 28 Apr 2012 06:54:38 GMT
+      Server:
+      - Apache/2.2.22 (EL)
+      X-Powered-By:
+      - PHP/5.2.17
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json
+    body:
+      encoding: US-ASCII
+      string: ! "\r\n[{\"model_id\":\"48922\",\"model_make_id\":\"ford\",\"model_name\":\"F-350\",\"model_trim\":\"Super
+        Duty King Ranch\",\"model_year\":\"2012\",\"model_body\":\"Pickup\",\"model_engine_position\":\"Front\",\"model_engine_cc\":\"6200\",\"model_engine_cyl\":\"8\",\"model_engine_type\":\"V\",\"model_engine_valves_per_cyl\":\"2\",\"model_engine_power_ps\":\"390\",\"model_engine_power_rpm\":\"5500\",\"model_engine_torque_nm\":\"548\",\"model_engine_torque_rpm\":\"4500\",\"model_engine_bore_mm\":null,\"model_engine_stroke_mm\":null,\"model_engine_compression\":null,\"model_engine_fuel\":\"Flex
+        Fuel\",\"model_top_speed_kph\":null,\"model_0_to_100_kph\":null,\"model_drive\":\"Rear\",\"model_transmission_type\":\"6-speed
+        shiftable automatic\",\"model_seats\":null,\"model_doors\":null,\"model_weight_kg\":null,\"model_length_mm\":\"6269\",\"model_width_mm\":\"2029\",\"model_height_mm\":\"1961\",\"model_wheelbase_mm\":\"3967\",\"model_lkm_hwy\":null,\"model_lkm_mixed\":null,\"model_lkm_city\":null,\"model_fuel_cap_l\":\"132\",\"model_sold_in_us\":\"1\",\"model_engine_l\":\"6.2\",\"model_engine_ci\":\"378\",\"model_engine_bore_in\":null,\"model_engine_stroke_in\":null,\"model_engine_valves\":\"16\",\"model_engine_power_hp\":\"385\",\"model_engine_power_kw\":\"287\",\"model_engine_torque_lbft\":\"404\",\"model_engine_torque_kgm\":\"56\",\"model_top_speed_mph\":null,\"model_weight_lbs\":null,\"model_length_in\":\"246.8\",\"model_width_in\":\"79.9\",\"model_height_in\":\"77.2\",\"model_wheelbase_in\":\"156.2\",\"model_mpg_hwy\":null,\"model_mpg_city\":null,\"model_mpg_mixed\":null,\"model_fuel_cap_g\":\"34.9\",\"make_display\":\"Ford\",\"make_country\":\"USA\",\"ExtColors\":[],\"IntColors\":[]}]"
+    http_version: 
+  recorded_at: Sat, 28 Apr 2012 05:50:20 GMT
+recorded_with: VCR 2.1.1
