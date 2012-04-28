@@ -116,7 +116,7 @@ describe CarQuery::Trims do
   end
 end
 
-describe CarQuery::Trims do
+describe CarQuery::Model do
   use_vcr_cassette :record => :new_episodes
 
   it "raises an error if no model param is passed" do
