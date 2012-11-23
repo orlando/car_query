@@ -1,12 +1,14 @@
 # CarQuery
 
-A Ruby wrapper for the www.carqueryapi.com's JSON API
+A Ruby wrapper for the www.carqueryapi.com JSON API
 
 [![Build Status](https://secure.travis-ci.org/orlandodelaguila/car_query.png?branch=master)](http://travis-ci.org/orlandodelaguila/car_query)
 
 Use RubyGems to install the gem:
 
     gem install car_query
+
+You can check the documentation at [RDoc](http://rdoc.info/github/orlando/car_query/)
 
 ## Contributing to CarQuery
  
